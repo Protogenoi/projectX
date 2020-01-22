@@ -1,0 +1,7 @@
+{
+  "require": {
+    "twilio/sdk": "^5.28",
+    "sendgrid/sendgrid": "~7",
+    "twbs/bootstrap": "4.3.1"
+  }
+}

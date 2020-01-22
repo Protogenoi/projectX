@@ -1,0 +1,5 @@
+includes/config.php
+classes/
+includes/adl_database_config.php
+uploads/
+.idea/

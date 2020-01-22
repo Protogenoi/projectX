@@ -1,0 +1,545 @@
+
+body {
+    background-color: #05668d !important;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #605B5B;
+
+}
+
+.notice {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+}
+
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+
+.notice-success {
+    border-color: #80D651;
+}
+
+.notice-success > strong {
+    color: #80D651;
+}
+
+.notice-info {
+    border-color: #45ABCD;
+}
+
+.notice-info > strong {
+    color: #45ABCD;
+}
+
+.notice-warning {
+    border-color: #FEAF20;
+}
+
+.notice-warning > strong {
+    color: #FEAF20;
+}
+
+.notice-danger {
+    border-color: #d73814;
+}
+
+.notice-danger > strong {
+    color: #d73814;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.nostart {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+br.clear {
+    clear: both;
+    margin-top: -15px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #FF9900;
+    background-color: #009fc6;
+}
+
+.fl_left {
+    float: left;
+}
+
+.fl_right {
+    float: right;
+}
+
+.imgl, .imgr {
+    border: 1px solid #C7C5C8;
+    padding: 5px;
+}
+
+.imgl {
+    float: left;
+    margin: 0 8px 8px 0;
+    clear: left;
+}
+
+.imgr {
+    float: right;
+    margin: 0 0 8px 8px;
+    clear: right;
+}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.col1, .col1 a {
+    color: #AAAAAA;
+    background-color: #009fc6;
+}
+
+.col2 {
+    color: #333333;
+    background-color: #373E46;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.col3 {
+    color: #666666;
+    background-color: #6A737C;
+    padding: 20px 0;
+}
+
+.col4 {
+    color: #666666;
+    background-color: #009fc6;
+    border-top: 1px solid #D5D5D5;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.col5 {
+    color: #666666;
+    background-color: #E9E9E9;
+}
+
+.col5 a {
+    color: #999999;
+    background-color: #E9E9E9;
+}
+
+.col6, .col6 a {
+    color: #605B5B;
+    background-color: #D0D0D0;
+}
+
+.col7 {
+    color: #666666;
+    background-color: #009fc6;
+    padding: 20px 0;
+}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, #topbar, #breadcrumb, #featured_intro, #latest, .container, #footer, #copyright {
+    position: relative;
+    margin: 0 auto 0;
+    display: block;
+    width: 1000px;
+}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header {
+    padding: 2px 0 20px 0;
+}
+
+#header .fl_left {
+    display: block;
+    float: left;
+    margin-top: 7px;
+    overflow: hidden;
+}
+
+#header .fl_right {
+    display: block;
+    float: right;
+    width: 468px;
+    height: 60px;
+    margin-top: 21px;
+    overflow: hidden;
+}
+
+#header h1, #header p, #header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal;
+}
+
+#header h1 a {
+    font-size: 46px;
+    color: #AAAAAA;
+    background-color: #009fc6;
+}
+
+#header .fl_left p {
+    margin-top: 5px;
+}
+
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+.container {
+    padding: 20px 0;
+}
+
+.content {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* ----------------------------------------------Column-------------------------------------*/
+
+.column {
+    display: block;
+    float: right;
+    width: 270px;
+}
+
+.column .holder {
+    display: block;
+    width: 260px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+/* ----------------------------------------------REAL TIME REPORT-------------------------------------*/
+
+.status_READY {
+    color: black;
+    background: #ADD8E6;
+}
+
+.status_INCALL {
+    color: black;
+    background: #D8BFD8;
+}
+
+.status_QUEUE {
+    color: black;
+    background: #37FDFC;
+}
+
+.status_PAUSED {
+    color: black;
+    background: #F0E68C;
+}
+
+.status_DISPO {
+    color: black;
+    background: yellow;
+}
+
+.status_DEAD {
+    color: white;
+    background: black;
+}
+
+.status_MANUAL {
+    color: black;
+    background: #ff9999;
+}
+
+.status_LEAD {
+    color: white;
+    background: #FFA500;
+}
+
+.status_ptrans {
+    color: white;
+    background: #FF0000;
+    font-size: 250%;
+}
+
+.status_nathan_transfer {
+    color: white;
+    background: #FF0000;
+    font-size: 250%;
+}
+
+.status_LATE {
+    color: white;
+    background: #FF0000;
+}
+
+.status_AWOL {
+    color: white;
+    background: #600000;
+}
+
+.status_trans {
+    color: white;
+    background: #109618;
+}
+
+.status_READY12 {
+    color: black;
+    background: #00FF33;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status_INCALL12 {
+    color: white;
+    background: #B00004;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status_PAUSED12 {
+    color: white;
+    background: #16A53F;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status_QUEUE2 {
+    color: white;
+    background: #ff0000;
+    text-align: center;
+}
+
+.status_DEAD2 {
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+.status_MANUAL2 {
+    color: white;
+    background: #ff9999;
+}
+
+.status_READY10 {
+    color: black;
+    background-color: #ADD8E6;
+}
+
+.status_READY1 {
+    color: white;
+    background-color: blue;
+}
+
+.status_READY5 {
+    color: white;
+    background-color: #191970;
+}
+
+.status_PAUSED10 {
+    color: black;
+    background-color: #F0E68C;
+}
+
+.status_PAUSED1 {
+    color: black;
+    background-color: yellow;
+}
+
+.status_PAUSED5 {
+    color: white;
+    background-color: #808000;
+}
+
+.status_INCALL10 {
+    color: black;
+    background-color: #D8BFD8;
+}
+
+.status_INCALL1 {
+    color: black;
+    background-color: #EE82EE;
+}
+
+.status_INCALL5 {
+    color: white;
+    background-color: purple;
+}
+
+/* LEAD FOR */
+
+#main2 {
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+#main2 td {
+    font-size: 30px;
+    border-width: thin;
+    border-color: white;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+/* Agent Table */
+#users {
+    border-collapse: collapse;
+    border-width: thin;
+    border-color: white;
+    text-align: left;
+    font-size: 25px;
+    line-height: 10px;
+}
+
+#users {
+    text-align: center;
+
+}
+
+#users th {
+    font-family: sans-serif;
+    font-size: 25x;
+}
+
+#users td {
+    border-width: thin;
+    border-color: white;
+    font-size: 25px;
+    height: 0px;
+
+}
+
+/* Stats Table */
+#stats {
+    border-collapse: collapse;
+    border-width: thin;
+    border-color: white;
+    text-align: left;
+    font-size: 25px;
+}
+
+#stats {
+    text-align: center;
+
+}
+
+#stats th {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#stats td {
+    border-width: thin;
+    border-color: white;
+    font-size: 25px;
+    height: 0px;
+
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+
+table thead th {
+    color: #FFFFFF;
+    background-color: #666666;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: auto;
+    vertical-align: middle;
+}
+
+table tbody td {
+    font-size: 20px;
+    border-collapse: collapse;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+table thead th, table tbody td {
+    font-size: 18px;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table tbody tr.light {
+    font-size: 18px;
+    color: #666666;
+    background-color: #F7F7F7;
+}
+
+table tbody tr.dark {
+    color: #666666;
+    background-color: #E8E8E8;
+}
+
+
+

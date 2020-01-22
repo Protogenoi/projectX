@@ -1,0 +1,55 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+
+table thead th {
+    color: #FFFFFF;
+    background-color: #12A5D3;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: auto;
+    vertical-align: middle;
+}
+
+table tbody td {
+    border-collapse: collapse;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+table thead th, table tbody td {
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table tbody tr.light {
+    color: #12A5D3;
+    background-color: #F7F7F7;
+}
+
+table tbody tr.dark {
+    color: #12A5D3;
+    background-color: #E8E8E8;
+}
+
+thead #STIME {
+    width: 72px;
+}
+
+thead #ETIME {
+    width: 72px;
+}
+
+thead #RECSIZE {
+    width: 550px;
+}
+
+

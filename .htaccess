@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+Options -Indexes
+
+ErrorDocument 404 https://x.adl-crm.uk/app/error/404.php 
+ErrorDocument 403 https://x.adl-crm.uk/app/error/403.php 
+ErrorDocument 500 https://x.adl-crm.uk/app/error/500.php
+
