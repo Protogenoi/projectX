@@ -43,7 +43,8 @@ $allowedIPAccess = [
 
 $anyIPAccess = [
     "Michael",
-    "Matt"
+    "Matt",
+    "Paul"
 ];
 
 $COM_LVL_10_ACCESS = ["Bob Jones"];
