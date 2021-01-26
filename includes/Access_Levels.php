@@ -38,7 +38,8 @@ $TIMELOCK_ACCESS = ["Michael", "Matt", "Nick"];
 
 
 $allowedIPAccess = [
-    '81.145.167.66'
+    '81.145.167.66',
+    '80.229.0.67'
 ];
 
 $anyIPAccess = [
